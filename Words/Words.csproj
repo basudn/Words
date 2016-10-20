@@ -90,6 +90,13 @@
     <Content Include="Resources\Hang6.png" />
     <Content Include="Resources\Hang7.png" />
     <Content Include="Resources\Hang8.png" />
+    <Content Include="Resources\hanging1.jpg" />
+    <Content Include="Resources\hanging2.jpg" />
+    <Content Include="Resources\hanging3.jpg" />
+    <Content Include="Resources\hanging4.jpg" />
+    <Content Include="Resources\hanging5.jpg" />
+    <Content Include="Resources\hanging6.jpg" />
+    <Content Include="Resources\hanging7.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
