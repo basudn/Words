@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,10 @@ namespace Words
 {
     public partial class Intro : Form
     {
-        private string Word = "MANGO";
+        private string Word;
+        private string[] LoadWordStore;
+        private string[] LoadImageStore;
+        private List<int> AlreadyPlayedWords = new List<int>();
         private int IncorrectGuesses = 0;
         private int Timer;
         private int SeqNo = 0;
@@ -33,6 +37,8 @@ namespace Words
         {
             IncorrectGuesses = 0;
             GenerateButtons();
+            loadwords();
+            SetupWordChoice();
             LoadWordGuess();
             GuessLbl.Show();
             HideElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, LevelSelect });
@@ -42,6 +48,35 @@ namespace Words
             Score.Text = "Score: " + TotalScore;
             Score.Show();
             TimeKeeper.Enabled = true;
+        }
+
+        private void loadwords()
+        {
+            char[] delimiterChars = { ',' };
+            string[] readText = File.ReadAllLines("words.csv");
+            LoadWordStore = new String[readText.Length];
+            LoadImageStore = new String[readText.Length];
+            int index = 0;
+           
+            
+            foreach (String s in readText)
+            {
+                string[] line = s.Split(delimiterChars);
+                LoadWordStore[index] = line[1];
+                LoadImageStore[index] = line[2];
+                index++;
+            }
+        }
+
+        private void SetupWordChoice()
+        {
+            int guessIndex = (new Random()).Next(LoadWordStore.Length);
+            while (AlreadyPlayedWords.Contains(guessIndex))
+            {
+                guessIndex = (new Random()).Next(LoadWordStore.Length);
+            }
+            Word = LoadWordStore[guessIndex].ToUpper();
+            PuzzlePic.ImageLocation = LoadImageStore[guessIndex];
         }
 
         private void LoadWordGuess()
@@ -75,6 +110,7 @@ namespace Words
                     RemoveControls(ControlList);
                     GenerateButtons();
                     Guesses = new List<char>();
+                    SetupWordChoice();
                     LoadWordGuess();
                 }
             }
@@ -189,6 +225,11 @@ namespace Words
                 Button keyPress = Controls.Find("button" + e.KeyCode, true)[0] as Button;
                 GuessClick(keyPress, new EventArgs());
             }
+        }
+
+        private void Intro_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

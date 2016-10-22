@@ -76,6 +76,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\words.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -97,6 +98,7 @@
     <Content Include="Resources\hanging5.jpg" />
     <Content Include="Resources\hanging6.jpg" />
     <Content Include="Resources\hanging7.jpg" />
+    <None Include="Resources\mango.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

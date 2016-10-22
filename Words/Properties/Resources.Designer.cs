@@ -149,5 +149,29 @@ namespace Words.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mango {
+            get {
+                object obj = ResourceManager.GetObject("mango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sr.No,Name,Description
+        ///1,mango,king of fruits
+        ///2,apple,keeps doctor away
+        ///3,grapes,used in alochol
+        ///4,lemon,sour
+        ///5,orange,name of color.
+        /// </summary>
+        internal static string words {
+            get {
+                return ResourceManager.GetString("words", resourceCulture);
+            }
+        }
     }
 }
