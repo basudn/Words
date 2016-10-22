@@ -40,6 +40,10 @@
             this.HangPic = new System.Windows.Forms.PictureBox();
             this.MainPic = new System.Windows.Forms.PictureBox();
             this.Score = new System.Windows.Forms.Label();
+            this.CmpltLbl = new System.Windows.Forms.Label();
+            this.FnlScore = new System.Windows.Forms.Label();
+            this.PlyAgnBtn = new System.Windows.Forms.Button();
+            this.MainMenuBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPic)).BeginInit();
@@ -53,6 +57,7 @@
             this.PlyBtn.Size = new System.Drawing.Size(100, 50);
             this.PlyBtn.TabIndex = 0;
             this.PlyBtn.Text = "Play";
+            this.PlyBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.PlyBtn.UseVisualStyleBackColor = true;
             this.PlyBtn.Click += new System.EventHandler(this.PlyBtn_Click);
             // 
@@ -102,13 +107,13 @@
             // 
             // GuessLbl
             // 
-            this.GuessLbl.AutoSize = true;
             this.GuessLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuessLbl.Location = new System.Drawing.Point(332, 435);
+            this.GuessLbl.Location = new System.Drawing.Point(336, 435);
             this.GuessLbl.Name = "GuessLbl";
-            this.GuessLbl.Size = new System.Drawing.Size(135, 46);
+            this.GuessLbl.Size = new System.Drawing.Size(303, 46);
             this.GuessLbl.TabIndex = 11;
             this.GuessLbl.Text = "Guess";
+            this.GuessLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.GuessLbl.Visible = false;
             // 
             // PuzzlePic
@@ -154,12 +159,64 @@
             this.Score.Text = "Score";
             this.Score.Visible = false;
             // 
+            // CmpltLbl
+            // 
+            this.CmpltLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmpltLbl.Location = new System.Drawing.Point(275, 145);
+            this.CmpltLbl.Name = "CmpltLbl";
+            this.CmpltLbl.Size = new System.Drawing.Size(417, 73);
+            this.CmpltLbl.TabIndex = 13;
+            this.CmpltLbl.Text = "Status";
+            this.CmpltLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CmpltLbl.Visible = false;
+            // 
+            // FnlScore
+            // 
+            this.FnlScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FnlScore.Location = new System.Drawing.Point(333, 241);
+            this.FnlScore.Name = "FnlScore";
+            this.FnlScore.Size = new System.Drawing.Size(295, 37);
+            this.FnlScore.TabIndex = 14;
+            this.FnlScore.Text = "Final Score";
+            this.FnlScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.FnlScore.Visible = false;
+            // 
+            // PlyAgnBtn
+            // 
+            this.PlyAgnBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlyAgnBtn.Location = new System.Drawing.Point(377, 361);
+            this.PlyAgnBtn.Name = "PlyAgnBtn";
+            this.PlyAgnBtn.Size = new System.Drawing.Size(200, 50);
+            this.PlyAgnBtn.TabIndex = 15;
+            this.PlyAgnBtn.Text = "Play Again";
+            this.PlyAgnBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.PlyAgnBtn.UseVisualStyleBackColor = true;
+            this.PlyAgnBtn.Visible = false;
+            this.PlyAgnBtn.Click += new System.EventHandler(this.PlyAgnBtn_Click);
+            // 
+            // MainMenuBtn
+            // 
+            this.MainMenuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenuBtn.Location = new System.Drawing.Point(377, 305);
+            this.MainMenuBtn.Name = "MainMenuBtn";
+            this.MainMenuBtn.Size = new System.Drawing.Size(200, 50);
+            this.MainMenuBtn.TabIndex = 16;
+            this.MainMenuBtn.Text = "Main Menu";
+            this.MainMenuBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MainMenuBtn.UseVisualStyleBackColor = true;
+            this.MainMenuBtn.Visible = false;
+            this.MainMenuBtn.Click += new System.EventHandler(this.MainMenuBtn_Click);
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(978, 694);
+            this.Controls.Add(this.MainMenuBtn);
+            this.Controls.Add(this.PlyAgnBtn);
+            this.Controls.Add(this.FnlScore);
+            this.Controls.Add(this.CmpltLbl);
             this.Controls.Add(this.Score);
             this.Controls.Add(this.GuessLbl);
             this.Controls.Add(this.PuzzlePic);
@@ -195,6 +252,10 @@
         private System.Windows.Forms.PictureBox PuzzlePic;
         private System.Windows.Forms.Label GuessLbl;
         private System.Windows.Forms.Label Score;
+        private System.Windows.Forms.Label CmpltLbl;
+        private System.Windows.Forms.Label FnlScore;
+        private System.Windows.Forms.Button PlyAgnBtn;
+        private System.Windows.Forms.Button MainMenuBtn;
     }
 }
 

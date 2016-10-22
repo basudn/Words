@@ -13,20 +13,22 @@ namespace Words
 {
     public partial class Intro : Form
     {
-        private string Word;
+        private string Word = "DEFAULT";
+        private readonly string WIN = "YOU WON!";
+        private readonly string LOSE = "YOU LOSE!";
         private string[] LoadWordStore;
         private string[] LoadImageStore;
-        private List<int> AlreadyPlayedWords = new List<int>();
-        private int IncorrectGuesses = 0;
+        private List<int> AlreadyPlayedWords;
+        private int IncorrectGuesses;
         private int Timer;
-        private int SeqNo = 0;
-        private int TotalScore = 0;
+        private int SeqNo;
+        private int TotalScore;
         private Bitmap[] hangImages = new Bitmap[] { Words.Properties.Resources.Hang1, Words.Properties.Resources.Hang2,
                                         Words.Properties.Resources.Hang3, Words.Properties.Resources.Hang4,
                                         Words.Properties.Resources.Hang5, Words.Properties.Resources.Hang6,
                                         Words.Properties.Resources.Hang7};
         private List<Control> ControlList = new List<Control>();
-        private List<char> Guesses = new List<char>();
+        private List<char> Guesses;
 
         public Intro()
         {
@@ -36,18 +38,19 @@ namespace Words
         private void PlyBtn_Click(object sender, EventArgs e)
         {
             IncorrectGuesses = 0;
+            SeqNo = 0;
+            TotalScore = 0;
+            AlreadyPlayedWords = new List<int>();
+            Guesses = new List<char>();
             GenerateButtons();
             loadwords();
             SetupWordChoice();
             LoadWordGuess();
-            GuessLbl.Show();
             HideElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, LevelSelect });
-            ShowElements(new Control[] { HangPic, PuzzlePic });
             TimerLabel.Text = "0:0";
-            TimerLabel.Show();
             Score.Text = "Score: " + TotalScore;
-            Score.Show();
             TimeKeeper.Enabled = true;
+            ShowElements(new Control[] { HangPic, PuzzlePic, Score, TimerLabel, GuessLbl });
         }
 
         private void loadwords()
@@ -103,7 +106,7 @@ namespace Words
                 Score.Text = "Score: " + TotalScore;
                 if (SeqNo == 10)
                 {
-                    TimeKeeper.Stop();
+                    GameOver(WIN);
                 }
                 else
                 {
@@ -186,8 +189,7 @@ namespace Words
                     IncorrectGuesses++;
                     if(IncorrectGuesses > 6)
                     {
-                        TimeKeeper.Stop();
-                        TimerLabel.Font = new Font(FontFamily.GenericSansSerif, 20, FontStyle.Strikeout);
+                        GameOver(LOSE);
                     }
                     else
                     {
@@ -207,8 +209,7 @@ namespace Words
                 IncorrectGuesses++;
                 if (IncorrectGuesses > 6)
                 {
-                    TimeKeeper.Stop();
-                    TimerLabel.Font = new Font(FontFamily.GenericSansSerif, 20, FontStyle.Strikeout);
+                    GameOver(LOSE);
                 }
                 else
                 {
@@ -227,9 +228,31 @@ namespace Words
             }
         }
 
+        private void GameOver(string status)
+        {
+            TimeKeeper.Stop();
+            RemoveControls(ControlList);
+            CmpltLbl.Text = status;
+            FnlScore.Text = Score.Text;
+            HideElements(new Control[] { PuzzlePic, HangPic, TimerLabel, Score, GuessLbl });
+            ShowElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
+        }
+
         private void Intro_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainMenuBtn_Click(object sender, EventArgs e)
+        {
+            HideElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
+            ShowElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, LevelSelect });
+        }
+
+        private void PlyAgnBtn_Click(object sender, EventArgs e)
+        {
+            HideElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
+            PlyBtn_Click(sender, e);
         }
     }
 }
