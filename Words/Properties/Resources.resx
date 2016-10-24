@@ -118,37 +118,121 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Hang6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\hang5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hang9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mango.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="words" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\words.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\apple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\banana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\bear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\carrot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheetah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\cheetah.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\cow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\deer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dolphin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\dolphin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elephant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\elephant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\fish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grapes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\grapes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hippopotamus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\hippopotamus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\horse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kangaroo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\kangaroo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\lion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\mango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\orange.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\papaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\pear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\pineapple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pomegranate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\pomegranate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\potato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\snake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strawberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\strawberry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\tomato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="watermelon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fruits\watermelon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zebra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\animals\zebra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanging7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hanging7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pirate_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pirate_home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ship.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
