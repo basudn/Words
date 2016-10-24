@@ -78,7 +78,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\flags\flags.csv" />
-    <None Include="Resources\flags\flags_style1_large.rar" />
     <None Include="Resources\vehicles\vehicles.csv" />
     <None Include="Resources\words.csv" />
   </ItemGroup>
@@ -101,6 +100,7 @@
     <Content Include="Resources\animals\lion.jpg" />
     <Content Include="Resources\animals\snake.jpg" />
     <Content Include="Resources\animals\zebra.jpg" />
+    <None Include="Resources\button_sound.wav" />
     <Content Include="Resources\flags\Afghanistan.png" />
     <Content Include="Resources\flags\Albania.png" />
     <Content Include="Resources\flags\Algeria.png" />

@@ -33,7 +33,7 @@ namespace Words
                                         Words.Properties.Resources.hanging7};
         private List<Control> ControlList = new List<Control>();
         private List<char> Guesses;
-        SoundPlayer button_sound = new SoundPlayer(@"C:\Users\Vijay Jain\Documents\Visual Studio 2015\Projects\Words\Audio\button_sound.wav");
+        SoundPlayer button_sound = new SoundPlayer(Words.Properties.Resources.button_sound);
         WMPLib.WindowsMediaPlayer intro_sound = new WMPLib.WindowsMediaPlayer();
         
 
