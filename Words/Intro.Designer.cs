@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Intro));
             this.PlyBtn = new System.Windows.Forms.Button();
             this.LevelLbl = new System.Windows.Forms.Label();
-            this.LevelSelect = new System.Windows.Forms.ComboBox();
+            this.CatSelect = new System.Windows.Forms.ComboBox();
             this.MainLbl = new System.Windows.Forms.Label();
             this.TimeKeeper = new System.Windows.Forms.Timer(this.components);
             this.TimerLabel = new System.Windows.Forms.Label();
@@ -46,6 +46,8 @@
             this.PlyAgnBtn = new System.Windows.Forms.Button();
             this.MainMenuBtn = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.Listen = new System.Windows.Forms.Button();
+            this.Continue = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPic)).BeginInit();
@@ -81,16 +83,21 @@
             this.LevelLbl.TabIndex = 3;
             this.LevelLbl.Text = "Category";
             // 
-            // LevelSelect
+            // CatSelect
             // 
-            this.LevelSelect.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LevelSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LevelSelect.FormattingEnabled = true;
-            this.LevelSelect.Location = new System.Drawing.Point(880, 286);
-            this.LevelSelect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.LevelSelect.Name = "LevelSelect";
-            this.LevelSelect.Size = new System.Drawing.Size(150, 63);
-            this.LevelSelect.TabIndex = 5;
+            this.CatSelect.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CatSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CatSelect.FormattingEnabled = true;
+            this.CatSelect.Items.AddRange(new object[] {
+            "Fruits",
+            "Vehicles",
+            "Flags",
+            "Animals"});
+            this.CatSelect.Location = new System.Drawing.Point(872, 293);
+            this.CatSelect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CatSelect.Name = "CatSelect";
+            this.CatSelect.Size = new System.Drawing.Size(157, 45);
+            this.CatSelect.TabIndex = 5;
             // 
             // MainLbl
             // 
@@ -126,9 +133,9 @@
             this.GuessLbl.BackColor = System.Drawing.Color.Transparent;
             this.GuessLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuessLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GuessLbl.Location = new System.Drawing.Point(197, 435);
+            this.GuessLbl.Location = new System.Drawing.Point(192, 435);
             this.GuessLbl.Name = "GuessLbl";
-            this.GuessLbl.Size = new System.Drawing.Size(564, 46);
+            this.GuessLbl.Size = new System.Drawing.Size(559, 46);
             this.GuessLbl.TabIndex = 11;
             this.GuessLbl.Text = "Guess";
             this.GuessLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -136,6 +143,7 @@
             // 
             // PuzzlePic
             // 
+            this.PuzzlePic.BackColor = System.Drawing.Color.Transparent;
             this.PuzzlePic.Location = new System.Drawing.Point(340, 100);
             this.PuzzlePic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PuzzlePic.Name = "PuzzlePic";
@@ -185,9 +193,9 @@
             this.CmpltLbl.BackColor = System.Drawing.Color.Transparent;
             this.CmpltLbl.Font = new System.Drawing.Font("Old English Text MT", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmpltLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CmpltLbl.Location = new System.Drawing.Point(274, 145);
+            this.CmpltLbl.Location = new System.Drawing.Point(263, 134);
             this.CmpltLbl.Name = "CmpltLbl";
-            this.CmpltLbl.Size = new System.Drawing.Size(417, 72);
+            this.CmpltLbl.Size = new System.Drawing.Size(483, 72);
             this.CmpltLbl.TabIndex = 13;
             this.CmpltLbl.Text = "Status";
             this.CmpltLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -198,7 +206,7 @@
             this.FnlScore.BackColor = System.Drawing.Color.Transparent;
             this.FnlScore.Font = new System.Drawing.Font("Old English Text MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FnlScore.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.FnlScore.Location = new System.Drawing.Point(333, 241);
+            this.FnlScore.Location = new System.Drawing.Point(349, 237);
             this.FnlScore.Name = "FnlScore";
             this.FnlScore.Size = new System.Drawing.Size(295, 38);
             this.FnlScore.TabIndex = 14;
@@ -212,7 +220,7 @@
             this.PlyAgnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlyAgnBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlyAgnBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.PlyAgnBtn.Location = new System.Drawing.Point(377, 383);
+            this.PlyAgnBtn.Location = new System.Drawing.Point(399, 383);
             this.PlyAgnBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PlyAgnBtn.Name = "PlyAgnBtn";
             this.PlyAgnBtn.Size = new System.Drawing.Size(200, 70);
@@ -228,7 +236,7 @@
             this.MainMenuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MainMenuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MainMenuBtn.Location = new System.Drawing.Point(377, 305);
+            this.MainMenuBtn.Location = new System.Drawing.Point(399, 309);
             this.MainMenuBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MainMenuBtn.Name = "MainMenuBtn";
             this.MainMenuBtn.Size = new System.Drawing.Size(200, 70);
@@ -249,6 +257,38 @@
             this.axWindowsMediaPlayer1.TabIndex = 17;
             this.axWindowsMediaPlayer1.Visible = false;
             // 
+            // Listen
+            // 
+            this.Listen.BackColor = System.Drawing.Color.Transparent;
+            this.Listen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Listen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Listen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Listen.Location = new System.Drawing.Point(272, 528);
+            this.Listen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Listen.Name = "Listen";
+            this.Listen.Size = new System.Drawing.Size(200, 70);
+            this.Listen.TabIndex = 18;
+            this.Listen.Text = "Listen";
+            this.Listen.UseVisualStyleBackColor = false;
+            this.Listen.Visible = false;
+            this.Listen.Click += new System.EventHandler(this.Listen_Click);
+            // 
+            // Continue
+            // 
+            this.Continue.BackColor = System.Drawing.Color.Transparent;
+            this.Continue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Continue.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Continue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Continue.Location = new System.Drawing.Point(491, 528);
+            this.Continue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Continue.Name = "Continue";
+            this.Continue.Size = new System.Drawing.Size(200, 70);
+            this.Continue.TabIndex = 19;
+            this.Continue.Text = "Continue";
+            this.Continue.UseVisualStyleBackColor = false;
+            this.Continue.Visible = false;
+            this.Continue.Click += new System.EventHandler(this.Continue_Click);
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -257,6 +297,8 @@
             this.BackgroundImage = global::Words.Properties.Resources.Ship;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1058, 694);
+            this.Controls.Add(this.Continue);
+            this.Controls.Add(this.Listen);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.MainMenuBtn);
             this.Controls.Add(this.PlyAgnBtn);
@@ -269,7 +311,7 @@
             this.Controls.Add(this.HangPic);
             this.Controls.Add(this.MainLbl);
             this.Controls.Add(this.MainPic);
-            this.Controls.Add(this.LevelSelect);
+            this.Controls.Add(this.CatSelect);
             this.Controls.Add(this.LevelLbl);
             this.Controls.Add(this.PlyBtn);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -292,7 +334,7 @@
 
         private System.Windows.Forms.Button PlyBtn;
         private System.Windows.Forms.Label LevelLbl;
-        private System.Windows.Forms.ComboBox LevelSelect;
+        private System.Windows.Forms.ComboBox CatSelect;
         private System.Windows.Forms.PictureBox MainPic;
         private System.Windows.Forms.Label MainLbl;
         private System.Windows.Forms.PictureBox HangPic;
@@ -306,6 +348,8 @@
         private System.Windows.Forms.Button PlyAgnBtn;
         private System.Windows.Forms.Button MainMenuBtn;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.Button Listen;
+        private System.Windows.Forms.Button Continue;
     }
 }
 

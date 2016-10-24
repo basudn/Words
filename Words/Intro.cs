@@ -34,48 +34,45 @@ namespace Words
         private List<Control> ControlList = new List<Control>();
         private List<char> Guesses;
         SoundPlayer button_sound = new SoundPlayer(Words.Properties.Resources.button_sound);
-        WMPLib.WindowsMediaPlayer intro_sound = new WMPLib.WindowsMediaPlayer();
-        
-
-
+        SoundPlayer ThemeSound = new SoundPlayer(Words.Properties.Resources.Theme);
+        SoundPlayer GameLost = new SoundPlayer(Words.Properties.Resources.scream);
         public Intro()
         {
             InitializeComponent();
-            intro_sound.URL = (@"C:\Users\Vijay Jain\Documents\Visual Studio 2015\Projects\Words\Audio\Boyce_Avenue_Demons.mp3");
-            intro_sound.controls.play();
+            ThemeSound.PlayLooping();
         }
 
         private void PlyBtn_Click(object sender, EventArgs e)
         {
-            intro_sound.controls.stop();
-            SeqNo = 0;
-            TotalScore = 0;
-            AlreadyPlayedWords = new List<int>();
-            Guesses = new List<char>();
-            GenerateButtons();
-            loadwords();
-            SetupWordChoice();
-            LoadWordGuess();
-            HideElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, LevelSelect });
-            Score.Text = "Score: " + TotalScore;
-            ShowElements(new Control[] { HangPic, PuzzlePic, Score, TimerLabel, GuessLbl });
-            Timer = 0;
-            TimeKeeper.Start();
+            if (!string.IsNullOrWhiteSpace(CatSelect.SelectedItem as string))
+            {
+                ThemeSound.Stop();
+                SeqNo = 0;
+                TotalScore = 0;
+                AlreadyPlayedWords = new List<int>();
+                Guesses = new List<char>();
+                GenerateButtons();
+                loadwords(CatSelect.SelectedItem as string);
+                SetupWordChoice();
+                LoadWordGuess();
+                HideElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, CatSelect });
+                Score.Text = "Score: " + TotalScore;
+                ShowElements(new Control[] { HangPic, PuzzlePic, Score, TimerLabel, GuessLbl });
+                Timer = 0;
+                TimeKeeper.Start();
+            }
         }
 
-        private void loadwords()
+        private void loadwords(string category)
         {
-            char[] delimiterChars = { ',' };
-            string[] readText = File.ReadAllLines("words.csv");
+            string inputStream = Words.Properties.Resources.ResourceManager.GetObject(category.ToLower()) as string;
+            string[] readText = inputStream.Split(new char[] { },StringSplitOptions.RemoveEmptyEntries);
             LoadWordStore = new String[readText.Length];
             //LoadImageStore = new String[readText.Length];
             int index = 0;
-           
-            
             foreach (String s in readText)
             {
-                string[] line = s.Split(delimiterChars);
-                LoadWordStore[index] = line[1];
+                LoadWordStore[index] = s;
                 //LoadImageStore[index] = line[2];
                 index++;
             }
@@ -125,20 +122,8 @@ namespace Words
                 // Synchronous
                 synthesizer.Speak(Word);
                 TimeKeeper.Stop();
-                if (SeqNo == 10)
-                {
-                    GameOver(WIN);
-                }
-                else
-                {
-                    RemoveControls(ControlList);
-                    GenerateButtons();
-                    Guesses = new List<char>();
-                    SetupWordChoice();
-                    LoadWordGuess();
-                    Timer = 0;
-                    TimeKeeper.Start();
-                }
+                RemoveControls(ControlList);
+                ShowElements(new Control[] { Listen, Continue });
             }
         }
 
@@ -163,6 +148,8 @@ namespace Words
                 button.Width = width;
                 button.Height = height;
                 button.FlatStyle = FlatStyle.Flat;
+                button.BackColor = Color.Transparent;
+                button.ForeColor = Color.White;
                 button.Click += new EventHandler(GuessClick);
                 button.KeyDown += new KeyEventHandler(GuessKeyPress);
                 ControlList.Add(button);
@@ -212,6 +199,7 @@ namespace Words
                     IncorrectGuesses++;
                     if(IncorrectGuesses > 6)
                     {
+                        GameLost.Play();
                         GameOver(LOSE);
                     }
                     else
@@ -232,6 +220,7 @@ namespace Words
                 IncorrectGuesses++;
                 if (IncorrectGuesses > 6)
                 {
+                    GameLost.Play();
                     GameOver(LOSE);
                 }
                 else
@@ -267,15 +256,42 @@ namespace Words
 
         private void MainMenuBtn_Click(object sender, EventArgs e)
         {
-            intro_sound.controls.play();
+            ThemeSound.PlayLooping();
             HideElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
-            ShowElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, LevelSelect });
+            ShowElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, CatSelect });
         }
 
         private void PlyAgnBtn_Click(object sender, EventArgs e)
         {
             HideElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
             PlyBtn_Click(sender, e);
+        }
+
+        private void Listen_Click(object sender, EventArgs e)
+        {
+            SpeechSynthesizer synthesizer = new SpeechSynthesizer();
+            synthesizer.Volume = 100;
+            synthesizer.Rate = -2;
+            synthesizer.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult);
+            synthesizer.Speak(Word);
+        }
+
+        private void Continue_Click(object sender, EventArgs e)
+        {
+            if (SeqNo == 10)
+            {
+                GameOver(WIN);
+            }
+            else
+            {
+                HideElements(new Control[] { Listen, Continue });
+                GenerateButtons();
+                Guesses = new List<char>();
+                SetupWordChoice();
+                LoadWordGuess();
+                Timer = 0;
+                TimeKeeper.Start();
+            }
         }
     }
 }
