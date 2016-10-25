@@ -253,77 +253,20 @@
   <data name="vehicles" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\wordlist\vehicles.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="Afghanistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\afghanistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="airplane" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\airplane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Albania" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\albania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Algeria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\algeria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ambulance" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\ambulance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Andorra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\andorra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Angola" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\angola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Anguilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\anguilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Argentina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="argentina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\argentina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Armenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\armenia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Aruba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\aruba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\australia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Austria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\austria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Azerbaijan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\azerbaijan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bahamas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bahamas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bahrain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bahrain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bangladesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bangladesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Barbados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\barbados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Belarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\belarus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Belgium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="belgium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\belgium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Belize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\belize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Benin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\benin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bermuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bermuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bhutan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bhutan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bike" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\bike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,428 +274,53 @@
   <data name="boat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\boat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bolivia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bolivia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bosnia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bosnia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Botswana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\botswana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\brazil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Brunei" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\brunei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bulgaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\bulgaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Burundi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\burundi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\bus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cambodia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\cambodia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cameroon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\cameroon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\canada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Chad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\chad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\chile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="china" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\china.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Colombia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\colombia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Comoros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\comoros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Croatia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\croatia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cuba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\cuba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cyprus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\cyprus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Denmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\denmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Djibouti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\djibouti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dominica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\dominica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ecuador" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\ecuador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Egypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="egypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\egypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Eritrea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\eritrea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Estonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\estonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ethiopia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\ethiopia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fiji" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\fiji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Finland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\finland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="France" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\france.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gabon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\gabon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gambia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\gambia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Georgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\georgia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\germany.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ghana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\ghana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gibraltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\gibraltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Greece" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\greece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Greenland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\greenland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Grenada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\grenada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\guam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guatemala" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\guatemala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\guinea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guinea_Bissau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\guinea_bissau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guyana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\guyana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Haiti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\haiti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="helicopter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\helicopter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Honduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\honduras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hong_Kong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\hong_kong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hungary" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\hungary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iceland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\iceland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="India" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="india" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\india.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Indonesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\indonesia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iran" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\iran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iraq" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\iraq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ireland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\ireland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Israel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\israel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Italy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="italy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\italy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jamaica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\jamaica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jeep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\jeep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jordan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\jordan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kazakhstan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\kazakhstan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kenya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\kenya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kiribati" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\kiribati.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kuwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\kuwait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kyrgyzstan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\kyrgyzstan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Laos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\laos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Latvia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\latvia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lebanon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\lebanon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lesotho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\lesotho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Liberia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\liberia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Libya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\libya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Liechtenstein" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\liechtenstein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lithuania" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\lithuania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Luxembourg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\luxembourg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Macao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\macao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Macedonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\macedonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Madagascar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\madagascar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Malawi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\malawi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Malaysia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\malaysia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Maldives" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\maldives.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mali" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mali.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Malta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\malta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Martinique" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\martinique.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mauritania" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mauritania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mauritius" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mauritius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mexico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Micronesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\micronesia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Moldova" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\moldova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mongolia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mongolia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Montserrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\montserrat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Morocco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\morocco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="motorcycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\motorcycle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mozambique" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\mozambique.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Myanmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\myanmar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Namibia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\namibia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nauru" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\nauru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nepal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\nepal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Netherlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\netherlands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nicaragua" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\nicaragua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Niger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\niger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nigeria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\nigeria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Niue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\niue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Norway" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\norway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Oman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\oman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pakistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\pakistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Palau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\palau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Panama" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\panama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Paraguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\paraguay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Peru" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\peru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Philippines" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\philippines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Poland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\poland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Portugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="portugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\portugal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Qatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\qatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Romania" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\romania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rwanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\rwanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Saint_Kitts_and_Nevis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\saint_kitts_and_nevis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Saint_Lucia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\saint_lucia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Samoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\samoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Senegal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\senegal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Seychelles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\seychelles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\singapore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slovakia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\slovakia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slovenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\slovenia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Somalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\somalia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Spain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="spain" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\spain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sudan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\sudan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Suriname" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\suriname.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Swaziland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\swaziland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sweden" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\sweden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Switzerland" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\switzerland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Syria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\syria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Taiwan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\taiwan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tajikistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tajikistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tanzania" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tanzania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="taxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\taxi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Thailand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="thailand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\thailand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tibet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tibet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Togo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\togo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tonga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tonga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="train" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\train.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -760,52 +328,13 @@
   <data name="truck" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\truck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tunisia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tunisia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\turkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Turkmenistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\turkmenistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tuvalu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\tuvalu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UAE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\uae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Uganda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\uganda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ukraine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\ukraine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Uruguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\uruguay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Uzbekistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\uzbekistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="van" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\vehicles\van.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vanuatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\vanuatu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Venezuela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="venezuela" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\flags\venezuela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vietnam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\vietnam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Yemen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\yemen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Zambia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\zambia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Zimbabwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\flags\zimbabwe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="applause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applause7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

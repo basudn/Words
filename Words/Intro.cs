@@ -27,6 +27,7 @@ namespace Words
         private int Timer;
         private int SeqNo;
         private int TotalScore;
+        public int Hiscore=0;
         private Bitmap[] hangImages = new Bitmap[] { Words.Properties.Resources.hanging1, Words.Properties.Resources.hanging2,
                                         Words.Properties.Resources.hanging3, Words.Properties.Resources.hanging4,
                                         Words.Properties.Resources.hanging5, Words.Properties.Resources.hanging6,
@@ -36,6 +37,8 @@ namespace Words
         SoundPlayer button_sound = new SoundPlayer(Words.Properties.Resources.button_sound);
         SoundPlayer ThemeSound = new SoundPlayer(Words.Properties.Resources.Theme);
         SoundPlayer GameLost = new SoundPlayer(Words.Properties.Resources.scream);
+        SoundPlayer GameWon = new SoundPlayer(Words.Properties.Resources.applause);
+
         public Intro()
         {
             InitializeComponent();
@@ -47,6 +50,7 @@ namespace Words
             if (!string.IsNullOrWhiteSpace(CatSelect.SelectedItem as string))
             {
                 ThemeSound.Stop();
+                HighScore.Visible = true;
                 SeqNo = 0;
                 TotalScore = 0;
                 AlreadyPlayedWords = new List<int>();
@@ -114,6 +118,10 @@ namespace Words
                 SeqNo++;
                 TotalScore += SeqNo <= 4 ? 5 : SeqNo <= 8 ? 10 : 20;
                 Score.Text = "Score: " + TotalScore;
+                if (TotalScore > Hiscore)
+                { Hiscore = TotalScore;
+                    HighScore.Text = "High Score : " + Hiscore;
+                }
                 SpeechSynthesizer synthesizer = new SpeechSynthesizer();
                 synthesizer.Volume = 100;  // 0...100
                 synthesizer.Rate = -2;     // -10...10
@@ -248,6 +256,8 @@ namespace Words
             FnlScore.Text = Score.Text;
             HideElements(new Control[] { PuzzlePic, HangPic, TimerLabel, Score, GuessLbl });
             ShowElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
+            Listen.Visible = false;
+            Continue.Visible = false;
         }
 
         private void Intro_Load(object sender, EventArgs e)
@@ -281,6 +291,7 @@ namespace Words
             if (SeqNo == 10)
             {
                 GameOver(WIN);
+                GameWon.Play();
             }
             else
             {
@@ -292,6 +303,16 @@ namespace Words
                 Timer = 0;
                 TimeKeeper.Start();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Intro_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
