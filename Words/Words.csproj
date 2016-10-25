@@ -102,7 +102,8 @@
     <Content Include="Resources\animals\snake.jpg" />
     <Content Include="Resources\animals\zebra.jpg" />
     <None Include="Resources\button_sound.wav" />
-    <None Include="Resources\applause7.wav" />
+    <None Include="Resources\applause.wav" />
+    <Content Include="Resources\bg.gif" />
     <Content Include="Resources\flags\argentina.png" />
     <Content Include="Resources\flags\australia.png" />
     <Content Include="Resources\flags\belgium.png" />

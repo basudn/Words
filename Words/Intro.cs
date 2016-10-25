@@ -59,7 +59,7 @@ namespace Words
                 loadwords(CatSelect.SelectedItem as string);
                 SetupWordChoice();
                 LoadWordGuess();
-                HideElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, CatSelect });
+                HideElements(new Control[] { PlyBtn, MainLbl, LevelLbl, CatSelect });
                 Score.Text = "Score: " + TotalScore;
                 ShowElements(new Control[] { HangPic, PuzzlePic, Score, TimerLabel, GuessLbl });
                 Timer = 0;
@@ -137,7 +137,7 @@ namespace Words
 
         private void GenerateButtons()
         {
-            int top = 365;
+            int top = 350;
             int left = 100;
             int width = 35;
             int height = 35;
@@ -145,7 +145,7 @@ namespace Words
             {
                 if (alpha == 'N')
                 {
-                    top = 400;
+                    top = 385;
                     left = 100;
                 }
                 Button button = new Button();
@@ -268,7 +268,7 @@ namespace Words
         {
             ThemeSound.PlayLooping();
             HideElements(new Control[] { CmpltLbl, FnlScore, MainMenuBtn, PlyAgnBtn });
-            ShowElements(new Control[] { MainPic, PlyBtn, MainLbl, LevelLbl, CatSelect });
+            ShowElements(new Control[] { PlyBtn, MainLbl, LevelLbl, CatSelect });
         }
 
         private void PlyAgnBtn_Click(object sender, EventArgs e)

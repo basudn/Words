@@ -39,7 +39,6 @@
             this.GuessLbl = new System.Windows.Forms.Label();
             this.PuzzlePic = new System.Windows.Forms.PictureBox();
             this.HangPic = new System.Windows.Forms.PictureBox();
-            this.MainPic = new System.Windows.Forms.PictureBox();
             this.Score = new System.Windows.Forms.Label();
             this.CmpltLbl = new System.Windows.Forms.Label();
             this.FnlScore = new System.Windows.Forms.Label();
@@ -52,7 +51,6 @@
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MainPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,10 +62,10 @@
             this.PlyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlyBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.PlyBtn.Location = new System.Drawing.Point(401, 377);
+            this.PlyBtn.Location = new System.Drawing.Point(451, 471);
             this.PlyBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PlyBtn.Name = "PlyBtn";
-            this.PlyBtn.Size = new System.Drawing.Size(120, 58);
+            this.PlyBtn.Size = new System.Drawing.Size(135, 72);
             this.PlyBtn.TabIndex = 0;
             this.PlyBtn.Text = "Play";
             this.PlyBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -80,9 +78,9 @@
             this.LevelLbl.BackColor = System.Drawing.Color.Transparent;
             this.LevelLbl.Font = new System.Drawing.Font("Old English Text MT", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LevelLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LevelLbl.Location = new System.Drawing.Point(256, 206);
+            this.LevelLbl.Location = new System.Drawing.Point(288, 258);
             this.LevelLbl.Name = "LevelLbl";
-            this.LevelLbl.Size = new System.Drawing.Size(209, 60);
+            this.LevelLbl.Size = new System.Drawing.Size(250, 71);
             this.LevelLbl.TabIndex = 3;
             this.LevelLbl.Text = "Category";
             // 
@@ -96,10 +94,10 @@
             "Vehicles",
             "Flags",
             "Animals"});
-            this.CatSelect.Location = new System.Drawing.Point(483, 220);
+            this.CatSelect.Location = new System.Drawing.Point(543, 275);
             this.CatSelect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CatSelect.Name = "CatSelect";
-            this.CatSelect.Size = new System.Drawing.Size(140, 39);
+            this.CatSelect.Size = new System.Drawing.Size(157, 45);
             this.CatSelect.TabIndex = 5;
             // 
             // MainLbl
@@ -108,9 +106,9 @@
             this.MainLbl.BackColor = System.Drawing.Color.Transparent;
             this.MainLbl.Font = new System.Drawing.Font("Old English Text MT", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MainLbl.Location = new System.Drawing.Point(285, 46);
+            this.MainLbl.Location = new System.Drawing.Point(321, 58);
             this.MainLbl.Name = "MainLbl";
-            this.MainLbl.Size = new System.Drawing.Size(329, 95);
+            this.MainLbl.Size = new System.Drawing.Size(394, 114);
             this.MainLbl.TabIndex = 7;
             this.MainLbl.Text = "hangman";
             // 
@@ -123,9 +121,9 @@
             this.TimerLabel.BackColor = System.Drawing.Color.Transparent;
             this.TimerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimerLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TimerLabel.Location = new System.Drawing.Point(662, 60);
+            this.TimerLabel.Location = new System.Drawing.Point(745, 55);
             this.TimerLabel.Name = "TimerLabel";
-            this.TimerLabel.Size = new System.Drawing.Size(138, 32);
+            this.TimerLabel.Size = new System.Drawing.Size(155, 40);
             this.TimerLabel.TabIndex = 9;
             this.TimerLabel.Text = "Timer";
             this.TimerLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -136,9 +134,9 @@
             this.GuessLbl.BackColor = System.Drawing.Color.Transparent;
             this.GuessLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuessLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GuessLbl.Location = new System.Drawing.Point(171, 348);
+            this.GuessLbl.Location = new System.Drawing.Point(192, 435);
             this.GuessLbl.Name = "GuessLbl";
-            this.GuessLbl.Size = new System.Drawing.Size(497, 37);
+            this.GuessLbl.Size = new System.Drawing.Size(559, 46);
             this.GuessLbl.TabIndex = 11;
             this.GuessLbl.Text = "Guess";
             this.GuessLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -147,10 +145,10 @@
             // PuzzlePic
             // 
             this.PuzzlePic.BackColor = System.Drawing.Color.Transparent;
-            this.PuzzlePic.Location = new System.Drawing.Point(302, 80);
+            this.PuzzlePic.Location = new System.Drawing.Point(340, 100);
             this.PuzzlePic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PuzzlePic.Name = "PuzzlePic";
-            this.PuzzlePic.Size = new System.Drawing.Size(256, 240);
+            this.PuzzlePic.Size = new System.Drawing.Size(288, 300);
             this.PuzzlePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PuzzlePic.TabIndex = 10;
             this.PuzzlePic.TabStop = false;
@@ -158,25 +156,14 @@
             // 
             // HangPic
             // 
-            this.HangPic.Location = new System.Drawing.Point(668, 107);
+            this.HangPic.Location = new System.Drawing.Point(752, 100);
             this.HangPic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HangPic.Name = "HangPic";
-            this.HangPic.Size = new System.Drawing.Size(171, 305);
+            this.HangPic.Size = new System.Drawing.Size(192, 400);
             this.HangPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.HangPic.TabIndex = 8;
             this.HangPic.TabStop = false;
             this.HangPic.Visible = false;
-            // 
-            // MainPic
-            // 
-            this.MainPic.BackColor = System.Drawing.Color.Transparent;
-            this.MainPic.Location = new System.Drawing.Point(104, 99);
-            this.MainPic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MainPic.Name = "MainPic";
-            this.MainPic.Size = new System.Drawing.Size(327, 271);
-            this.MainPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MainPic.TabIndex = 6;
-            this.MainPic.TabStop = false;
             // 
             // Score
             // 
@@ -184,9 +171,9 @@
             this.Score.BackColor = System.Drawing.Color.Transparent;
             this.Score.Font = new System.Drawing.Font("Copperplate Gothic Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Score.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Score.Location = new System.Drawing.Point(12, 46);
+            this.Score.Location = new System.Drawing.Point(14, 58);
             this.Score.Name = "Score";
-            this.Score.Size = new System.Drawing.Size(111, 31);
+            this.Score.Size = new System.Drawing.Size(132, 37);
             this.Score.TabIndex = 12;
             this.Score.Text = "Score";
             this.Score.Visible = false;
@@ -196,9 +183,9 @@
             this.CmpltLbl.BackColor = System.Drawing.Color.Transparent;
             this.CmpltLbl.Font = new System.Drawing.Font("Old English Text MT", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmpltLbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CmpltLbl.Location = new System.Drawing.Point(234, 107);
+            this.CmpltLbl.Location = new System.Drawing.Point(263, 134);
             this.CmpltLbl.Name = "CmpltLbl";
-            this.CmpltLbl.Size = new System.Drawing.Size(429, 58);
+            this.CmpltLbl.Size = new System.Drawing.Size(483, 72);
             this.CmpltLbl.TabIndex = 13;
             this.CmpltLbl.Text = "Status";
             this.CmpltLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -209,9 +196,9 @@
             this.FnlScore.BackColor = System.Drawing.Color.Transparent;
             this.FnlScore.Font = new System.Drawing.Font("Old English Text MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FnlScore.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.FnlScore.Location = new System.Drawing.Point(310, 190);
+            this.FnlScore.Location = new System.Drawing.Point(349, 238);
             this.FnlScore.Name = "FnlScore";
-            this.FnlScore.Size = new System.Drawing.Size(262, 30);
+            this.FnlScore.Size = new System.Drawing.Size(295, 38);
             this.FnlScore.TabIndex = 14;
             this.FnlScore.Text = "Final Score";
             this.FnlScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,10 +211,10 @@
             this.PlyAgnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlyAgnBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlyAgnBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.PlyAgnBtn.Location = new System.Drawing.Point(355, 306);
+            this.PlyAgnBtn.Location = new System.Drawing.Point(399, 382);
             this.PlyAgnBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PlyAgnBtn.Name = "PlyAgnBtn";
-            this.PlyAgnBtn.Size = new System.Drawing.Size(178, 56);
+            this.PlyAgnBtn.Size = new System.Drawing.Size(200, 70);
             this.PlyAgnBtn.TabIndex = 15;
             this.PlyAgnBtn.Text = "Play Again";
             this.PlyAgnBtn.UseVisualStyleBackColor = false;
@@ -241,10 +228,10 @@
             this.MainMenuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MainMenuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MainMenuBtn.Location = new System.Drawing.Point(355, 247);
+            this.MainMenuBtn.Location = new System.Drawing.Point(399, 309);
             this.MainMenuBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MainMenuBtn.Name = "MainMenuBtn";
-            this.MainMenuBtn.Size = new System.Drawing.Size(178, 56);
+            this.MainMenuBtn.Size = new System.Drawing.Size(200, 70);
             this.MainMenuBtn.TabIndex = 16;
             this.MainMenuBtn.Text = "Main Menu";
             this.MainMenuBtn.UseVisualStyleBackColor = false;
@@ -255,6 +242,7 @@
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(510, 443);
+            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(75, 23);
@@ -268,10 +256,10 @@
             this.Listen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Listen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Listen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Listen.Location = new System.Drawing.Point(242, 422);
+            this.Listen.Location = new System.Drawing.Point(272, 528);
             this.Listen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Listen.Name = "Listen";
-            this.Listen.Size = new System.Drawing.Size(178, 56);
+            this.Listen.Size = new System.Drawing.Size(200, 70);
             this.Listen.TabIndex = 18;
             this.Listen.Text = "Listen";
             this.Listen.UseVisualStyleBackColor = false;
@@ -285,10 +273,10 @@
             this.Continue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Continue.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Continue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Continue.Location = new System.Drawing.Point(436, 422);
+            this.Continue.Location = new System.Drawing.Point(490, 528);
             this.Continue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Continue.Name = "Continue";
-            this.Continue.Size = new System.Drawing.Size(178, 56);
+            this.Continue.Size = new System.Drawing.Size(200, 70);
             this.Continue.TabIndex = 19;
             this.Continue.Text = "Continue";
             this.Continue.UseVisualStyleBackColor = false;
@@ -301,9 +289,9 @@
             this.HighScore.BackColor = System.Drawing.Color.Transparent;
             this.HighScore.Font = new System.Drawing.Font("Copperplate Gothic Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HighScore.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.HighScore.Location = new System.Drawing.Point(12, 9);
+            this.HighScore.Location = new System.Drawing.Point(14, 11);
             this.HighScore.Name = "HighScore";
-            this.HighScore.Size = new System.Drawing.Size(226, 31);
+            this.HighScore.Size = new System.Drawing.Size(268, 37);
             this.HighScore.TabIndex = 20;
             this.HighScore.Text = "High Score: 0";
             this.HighScore.Visible = false;
@@ -313,9 +301,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(163, 536);
+            this.label1.Location = new System.Drawing.Point(237, 659);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(537, 29);
             this.label1.TabIndex = 21;
@@ -323,12 +311,12 @@
             // 
             // Intro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::Words.Properties.Resources.Ship;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(944, 562);
+            this.ClientSize = new System.Drawing.Size(1058, 691);
             this.Controls.Add(this.LevelLbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.HighScore);
@@ -343,22 +331,21 @@
             this.Controls.Add(this.TimerLabel);
             this.Controls.Add(this.HangPic);
             this.Controls.Add(this.MainLbl);
-            this.Controls.Add(this.MainPic);
             this.Controls.Add(this.CatSelect);
             this.Controls.Add(this.PlyBtn);
             this.Controls.Add(this.FnlScore);
             this.Controls.Add(this.PuzzlePic);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(962, 609);
+            this.MaximumSize = new System.Drawing.Size(1080, 747);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(962, 609);
+            this.MinimumSize = new System.Drawing.Size(1080, 747);
             this.Name = "Intro";
             this.Text = "Hangman";
             this.Load += new System.EventHandler(this.Intro_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MainPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -370,7 +357,6 @@
         private System.Windows.Forms.Button PlyBtn;
         private System.Windows.Forms.Label LevelLbl;
         private System.Windows.Forms.ComboBox CatSelect;
-        private System.Windows.Forms.PictureBox MainPic;
         private System.Windows.Forms.Label MainLbl;
         private System.Windows.Forms.PictureBox HangPic;
         private System.Windows.Forms.Timer TimeKeeper;
