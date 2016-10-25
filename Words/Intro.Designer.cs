@@ -49,6 +49,7 @@
             this.Continue = new System.Windows.Forms.Button();
             this.HighScore = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Error = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
@@ -295,7 +296,6 @@
             this.HighScore.TabIndex = 20;
             this.HighScore.Text = "High Score: 0";
             this.HighScore.Visible = false;
-            this.HighScore.Click += new System.EventHandler(this.label1_Click);
             // 
             // label1
             // 
@@ -309,6 +309,19 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "© 2016 Debayan Basu, Vijay Jain, Sushant Karnik";
             // 
+            // Error
+            // 
+            this.Error.BackColor = System.Drawing.Color.Transparent;
+            this.Error.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Error.ForeColor = System.Drawing.Color.Red;
+            this.Error.Location = new System.Drawing.Point(292, 11);
+            this.Error.Name = "Error";
+            this.Error.Size = new System.Drawing.Size(459, 47);
+            this.Error.TabIndex = 22;
+            this.Error.Text = "Error Occured! Please Restart!";
+            this.Error.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Error.Visible = false;
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -317,6 +330,7 @@
             this.BackgroundImage = global::Words.Properties.Resources.Ship;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1058, 691);
+            this.Controls.Add(this.Error);
             this.Controls.Add(this.LevelLbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.HighScore);
@@ -343,7 +357,6 @@
             this.MinimumSize = new System.Drawing.Size(1080, 747);
             this.Name = "Intro";
             this.Text = "Hangman";
-            this.Load += new System.EventHandler(this.Intro_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
@@ -373,6 +386,7 @@
         private System.Windows.Forms.Button Continue;
         private System.Windows.Forms.Label HighScore;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Error;
     }
 }
 
