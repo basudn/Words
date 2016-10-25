@@ -104,7 +104,7 @@
     <Content Include="Resources\animals\zebra.jpg" />
     <None Include="Resources\button_sound.wav" />
     <None Include="Resources\applause.wav" />
-	<None Include="Resources\bird_2.gif" />
+    <None Include="Resources\bird_2.gif" />
     <Content Include="Resources\flags\argentina.png" />
     <Content Include="Resources\flags\australia.png" />
     <Content Include="Resources\flags\belgium.png" />
@@ -141,10 +141,13 @@
     <Content Include="Resources\cover\hanging5.jpg" />
     <Content Include="Resources\cover\hanging6.jpg" />
     <Content Include="Resources\cover\hanging7.jpg" />
+    <Content Include="Resources\giphy1.gif" />
+    <Content Include="Resources\trian.gif" />
     <Content Include="Resources\Theme.wav" />
     <Content Include="Resources\scream.wav" />
     <Content Include="Resources\Ship.jpg" />
     <Content Include="Resources\Pirate_Home.jpg" />
+    <Content Include="Resources\ex.gif" />
     <Content Include="Resources\vehicles\airplane.png" />
     <Content Include="Resources\vehicles\ambulance.png" />
     <Content Include="Resources\vehicles\bike.png" />
