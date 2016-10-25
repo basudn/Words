@@ -185,6 +185,16 @@ namespace Words.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bird_2 {
+            get {
+                object obj = ResourceManager.GetObject("bird_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boat {
             get {
                 object obj = ResourceManager.GetObject("boat", resourceCulture);
@@ -334,6 +344,16 @@ namespace Words.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ex {
+            get {
+                object obj = ResourceManager.GetObject("ex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fish {
             get {
                 object obj = ResourceManager.GetObject("fish", resourceCulture);
@@ -393,6 +413,26 @@ namespace Words.Properties {
         internal static System.Drawing.Bitmap germany {
             get {
                 object obj = ResourceManager.GetObject("germany", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy {
+            get {
+                object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy1 {
+            get {
+                object obj = ResourceManager.GetObject("giphy1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -689,6 +729,16 @@ namespace Words.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ship_gif01 {
+            get {
+                object obj = ResourceManager.GetObject("ship_gif01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap snake {
             get {
                 object obj = ResourceManager.GetObject("snake", resourceCulture);
@@ -761,6 +811,16 @@ namespace Words.Properties {
         internal static System.Drawing.Bitmap train {
             get {
                 object obj = ResourceManager.GetObject("train", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trian {
+            get {
+                object obj = ResourceManager.GetObject("trian", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

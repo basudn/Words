@@ -50,6 +50,8 @@ namespace Words
             if (!string.IsNullOrWhiteSpace(CatSelect.SelectedItem as string))
             {
                 ThemeSound.Stop();
+                
+                //ThemeSound.PlayLooping();
                 HighScore.Visible = true;
                 SeqNo = 0;
                 TotalScore = 0;

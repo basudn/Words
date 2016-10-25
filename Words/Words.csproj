@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wordList\animals.csv" />
+    <None Include="Resources\4352.gif" />
     <Content Include="Resources\animals\bear.jpg" />
     <Content Include="Resources\animals\cat.jpg" />
     <Content Include="Resources\animals\cheetah.jpg" />
@@ -103,6 +104,7 @@
     <Content Include="Resources\animals\zebra.jpg" />
     <None Include="Resources\button_sound.wav" />
     <None Include="Resources\applause7.wav" />
+    <None Include="Resources\bird_2.gif" />
     <Content Include="Resources\flags\argentina.png" />
     <Content Include="Resources\flags\australia.png" />
     <Content Include="Resources\flags\belgium.png" />
@@ -139,10 +141,14 @@
     <Content Include="Resources\cover\hanging5.jpg" />
     <Content Include="Resources\cover\hanging6.jpg" />
     <Content Include="Resources\cover\hanging7.jpg" />
+    <None Include="Resources\musobuffering-dark.gif" />
+    <None Include="Resources\giphy.gif" />
+    <None Include="Resources\giphy1.gif" />
     <Content Include="Resources\Theme.wav" />
     <Content Include="Resources\scream.wav" />
     <Content Include="Resources\Ship.jpg" />
     <Content Include="Resources\Pirate_Home.jpg" />
+    <None Include="Resources\tumblr_mbsnurTQFt1r2dfh6o1_500.gif" />
     <Content Include="Resources\vehicles\airplane.png" />
     <Content Include="Resources\vehicles\ambulance.png" />
     <Content Include="Resources\vehicles\bike.png" />

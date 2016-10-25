@@ -50,10 +50,18 @@
             this.Continue = new System.Windows.Forms.Button();
             this.HighScore = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PuzzlePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // PlyBtn
@@ -321,6 +329,50 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "© 2016 Debayan Basu, Vijay Jain, Sushant Karnik";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Words.Properties.Resources.giphy;
+            this.pictureBox1.Location = new System.Drawing.Point(815, 470);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(117, 118);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Words.Properties.Resources.bird_2;
+            this.pictureBox2.Location = new System.Drawing.Point(18, 250);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(260, 167);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::Words.Properties.Resources.giphy1;
+            this.pictureBox4.Location = new System.Drawing.Point(330, 29);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(534, 291);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 25;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::Words.Properties.Resources.giphy1;
+            this.pictureBox5.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -329,6 +381,9 @@
             this.BackgroundImage = global::Words.Properties.Resources.Ship;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(944, 562);
+            this.Controls.Add(this.GuessLbl);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LevelLbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.HighScore);
@@ -339,7 +394,6 @@
             this.Controls.Add(this.PlyAgnBtn);
             this.Controls.Add(this.CmpltLbl);
             this.Controls.Add(this.Score);
-            this.Controls.Add(this.GuessLbl);
             this.Controls.Add(this.TimerLabel);
             this.Controls.Add(this.HangPic);
             this.Controls.Add(this.MainLbl);
@@ -348,6 +402,9 @@
             this.Controls.Add(this.PlyBtn);
             this.Controls.Add(this.FnlScore);
             this.Controls.Add(this.PuzzlePic);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox5);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(962, 609);
@@ -360,6 +417,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.HangPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -387,6 +448,10 @@
         private System.Windows.Forms.Button Continue;
         private System.Windows.Forms.Label HighScore;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 
